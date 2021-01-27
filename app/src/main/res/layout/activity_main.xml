@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/emailET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="Email"
+        android:lines="1"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="#615D5D"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/firstNameET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="5dp"
+        android:hint="FIrst Name"
+        android:lines="1"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="#615D5D"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/lastNameET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="5dp"
+        android:hint="Last Name"
+        android:lines="1"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="#615D5D"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/ageET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginRight="5dp"
+        android:hint="Age"
+        android:lines="1"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="#615D5D"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/addressET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="5dp"
+        android:hint="Address"
+        android:lines="1"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="#615D5D"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:onClick="save"
+        android:id="@+id/saveButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+
+</FrameLayout>
